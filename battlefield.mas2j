@@ -1,0 +1,31 @@
+// A battlefield simulator
+
+MAS battlefield {
+
+    infrastructure: Centralised
+
+    environment: Battlefield
+    
+    agents:
+		b1 base;
+	 	b2 base;
+	 	b3 base;
+	 	b4 base;
+	 		 			
+		h1 healer;
+		h2 healer;
+		h3 healer;
+		h4 healer;
+		
+		a1 attacker; 
+		a2 attacker;
+		a3 attacker; 
+		a4 attacker;
+		//a5 attacker; 
+		//a6 attacker;
+		//a7 attacker; 
+		//a8 attacker;
+    
+    aslSourcePath: "src/asl";
+    
+}
